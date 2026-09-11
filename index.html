@@ -6,74 +6,107 @@
 
     <title>Rinku Shekhawat | Portfolio</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,600&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- Background decorations -->
-<div class="blob blob-one"></div>
-<div class="blob blob-two"></div>
+<!-- ================= NAVBAR ================= -->
 
-<!-- NAVBAR -->
-<header>
-    <nav class="navbar">
+<header class="navbar">
 
-        <a href="#home" class="logo"></a>
+    <a href="#home" class="logo">Rinku.</a>
 
-        <div class="nav-links">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#education">Education</a>
-            <a href="#activities">Activities</a>
-            <a href="#contact">Contact</a>
-        </div>
+    <nav>
+        <ul class="nav-links">
 
+            <li>
+                <a href="#home" class="active">Home</a>
+            </li>
+
+            <li>
+                <a href="#about">About</a>
+            </li>
+
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+
+            <li>
+                <a href="#education">Education</a>
+            </li>
+
+            <li>
+                <a href="#activities">Activities</a>
+            </li>
+
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+
+        </ul>
     </nav>
+
 </header>
 
 
-<!-- HERO -->
+<!-- ================= HOME ================= -->
+
 <section id="home" class="hero">
 
-    <div class="hero-text">
+    <div class="hero-content">
 
-        <p class="small-heading">WELCOME TO MY PORTFOLIO ✦</p>
+        <p class="hero-subtitle">
+            B.TECH CSE STUDENT • EXPECTED 2027
+        </p>
 
         <h1>
-            Hello, I'm<br>
+            Hello, I'm
             <span>Rinku Shekhawat</span>
         </h1>
 
-        <p class="hero-subtitle">
-            B.Tech CSE Student <span>•</span> 2023–2027
+        <p class="hero-info">
+            B.Tech CSE
+            <span>|</span>
+            2023–2027
         </p>
 
         <p class="hero-description">
-            I'm a Computer Science student interested in technology,
-            data, machine learning and building meaningful projects.
+            A passionate Computer Science student interested in
+            technology, data analysis, machine learning and
+            building practical solutions through technology.
         </p>
 
         <div class="hero-buttons">
-            <a href="#projects" class="btn primary-btn">
-                View Projects →
+
+            <a href="#projects" class="btn btn-primary">
+                View Projects
             </a>
 
-            <a href="#contact" class="btn secondary-btn">
+            <a href="#contact" class="btn btn-secondary">
                 Contact Me
             </a>
+
         </div>
+
 
         <div class="social-links">
 
             <a href="https://github.com/shekhawat514" target="_blank">
                 GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank">
+                LinkedIn
             </a>
 
             <a href="mailto:rinkushekhawat11306@gmail.com">
@@ -86,19 +119,20 @@
 
 
     <!-- PHOTO -->
-    <div class="hero-photo-area">
 
-        <div class="photo-decoration"></div>
+    <div class="hero-image">
 
         <div class="photo-frame">
 
-            <img src="profile.jpg" alt="Rinku Shekhawat">
+            <img
+                src="profile.jpg"
+                alt="Rinku Shekhawat"
+            >
 
         </div>
 
-        <div class="floating-card">
-            <span>✦</span>
-            CSE Student
+        <div class="photo-badge">
+            CSE Student ✦
         </div>
 
     </div>
@@ -106,41 +140,45 @@
 </section>
 
 
-<!-- ABOUT -->
-<section id="about" class="section">
+<!-- ================= ABOUT ================= -->
 
-    <div class="section-title">
-        <p>GET TO KNOW ME</p>
-        <h2>About <span>Me</span></h2>
+<section id="about" class="about">
+
+    <div class="section-heading">
+
+        <p class="small-title">GET TO KNOW ME</p>
+
+        <h2 class="section-title">
+            About <span>Me</span>
+        </h2>
+
+        <p class="section-subtitle">
+            A little about my journey and interests.
+        </p>
+
     </div>
+
 
     <div class="about-card">
 
-        <div class="about-icon">
-            ✦
-        </div>
+        <p>
+            I am a B.Tech Computer Science and Engineering student
+            with an interest in data analysis, machine learning,
+            web development and problem solving.
+        </p>
 
-        <div>
-            <h3>A little about me</h3>
+        <p>
+            I enjoy learning new technologies and working on
+            practical projects that help me understand how
+            technology can solve real-world problems.
+        </p>
 
-            <p>
-                I am a B.Tech Computer Science student passionate about
-                learning technology and developing practical solutions.
-                I enjoy exploring Python, data analysis, machine learning
-                and web development.
-            </p>
+        <div class="about-tags">
 
-            <p>
-                I believe in learning by building projects and continuously
-                improving my technical and problem-solving skills.
-            </p>
-
-            <div class="tags">
-                <span>Problem Solving</span>
-                <span>Learning</span>
-                <span>Teamwork</span>
-                <span>Creativity</span>
-            </div>
+            <span>Problem Solving</span>
+            <span>Learning</span>
+            <span>Technology</span>
+            <span>Teamwork</span>
 
         </div>
 
@@ -149,50 +187,61 @@
 </section>
 
 
-<!-- SKILLS -->
-<section id="skills" class="section">
+<!-- ================= SKILLS ================= -->
 
-    <div class="section-title">
-        <p>WHAT I WORK WITH</p>
-        <h2>My <span>Skills</span></h2>
+<section id="skills" class="skills">
+
+    <div class="section-heading">
+
+        <p class="small-title">WHAT I WORK WITH</p>
+
+        <h2 class="section-title">
+            My <span>Skills</span>
+        </h2>
+
+        <p class="section-subtitle">
+            Technologies and skills I am learning and working with.
+        </p>
+
     </div>
 
-    <div class="skills-grid">
 
-        <div class="skill-card">
-            <div class="skill-number">01</div>
-            <h3>Python</h3>
-            <p>Programming & problem solving</p>
+    <div class="skills-container">
+
+        <div class="skill">
+            <span>Python</span>
         </div>
 
-        <div class="skill-card">
-            <div class="skill-number">02</div>
-            <h3>Machine Learning</h3>
-            <p>Prediction & model development</p>
+        <div class="skill">
+            <span>Web Development</span>
         </div>
 
-        <div class="skill-card">
-            <div class="skill-number">03</div>
-            <h3>Data Tools</h3>
-            <p>Data handling & analysis</p>
+        <div class="skill">
+            <span>Data Analysis</span>
         </div>
 
-        <div class="skill-card">
-            <div class="skill-number">04</div>
-            <h3>Web Development</h3>
-            <p>HTML, CSS & basic web design</p>
+        <div class="skill">
+            <span>Machine Learning</span>
         </div>
 
-        <div class="skill-card">
-            <div class="skill-number">05</div>
-            <h3>Visualization</h3>
-            <p>Charts & data presentation</p>
+        <div class="skill">
+            <span>Data Visualization</span>
         </div>
 
-        <div class="skill-card">
-            <div class="skill-number">06</div>
-            <h3>Soft Skills</h3>
-            <p>Communication & teamwork</p>
+        <div class="skill">
+            <span>SQL</span>
+        </div>
+
+        <div class="skill">
+            <span>Problem Solving</span>
+        </div>
+
+        <div class="skill">
+            <span>Communication</span>
+        </div>
+
+        <div class="skill">
+            <span>Teamwork</span>
         </div>
 
     </div>
@@ -200,158 +249,135 @@
 </section>
 
 
-<!-- PROJECTS -->
-<section id="projects" class="section">
+<!-- ================= PROJECTS ================= -->
 
-    <div class="section-title">
-        <p>MY RECENT WORK</p>
-        <h2>Featured <span>Projects</span></h2>
+<section id="projects" class="projects">
+
+    <div class="section-heading">
+
+        <p class="small-title">MY WORK</p>
+
+        <h2 class="section-title">
+            Featured <span>Projects</span>
+        </h2>
+
+        <p class="section-subtitle">
+            Some of the projects I have worked on.
+        </p>
+
     </div>
 
-    <div class="projects-grid">
+
+    <div class="projects-container">
+
+
+        <!-- PROJECT 1 -->
 
         <article class="project-card">
 
-            <div class="project-top purple">
-                <span>ML PROJECT</span>
-                <span>01</span>
+            <div class="project-number">
+                01
             </div>
 
-            <div class="project-content">
+            <div class="project-icon">
+                💳
+            </div>
 
-                <h3>Credit Card Fraud Detection</h3>
+            <h3>
+                Credit Card Fraud Detection
+            </h3>
 
-                <p>
-                    A machine learning project focused on identifying
-                    potentially fraudulent credit card transactions
-                    using data-driven techniques.
-                </p>
+            <p>
+                A machine learning based project designed to
+                identify potentially fraudulent credit card
+                transactions using data analysis and classification
+                techniques.
+            </p>
 
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>Machine Learning</span>
-                    <span>Data Analysis</span>
-                </div>
+            <div class="project-tags">
+
+                <span>Python</span>
+                <span>Machine Learning</span>
+                <span>Data Analysis</span>
 
             </div>
 
         </article>
 
 
+        <!-- PROJECT 2 -->
+
         <article class="project-card">
 
-            <div class="project-top lavender">
-                <span>ML PROJECT</span>
-                <span>02</span>
+            <div class="project-number">
+                02
             </div>
 
-            <div class="project-content">
+            <div class="project-icon">
+                🖥️
+            </div>
 
-                <h3>ML-Based Server Load Prediction</h3>
+            <h3>
+                ML-Based Server Load Prediction
+            </h3>
 
-                <p>
-                    A Random Forest Regression based project that predicts
-                    server load using performance metrics such as CPU,
-                    memory, network traffic and disk I/O.
-                </p>
+            <p>
+                A machine learning project that predicts server
+                load using server performance metrics such as
+                CPU usage, memory usage, network traffic, disk I/O
+                and active users.
+            </p>
 
-                <div class="project-tags">
-                    <span>Python</span>
-                    <span>Random Forest</span>
-                    <span>Scikit-learn</span>
-                </div>
+            <div class="project-tags">
+
+                <span>Python</span>
+                <span>Random Forest</span>
+                <span>Machine Learning</span>
 
             </div>
 
         </article>
 
-    </div>
-
-</section>
-
-
-<!-- ACHIEVEMENTS -->
-<section id="activities" class="section">
-
-    <div class="section-title">
-        <p>BEYOND THE CLASSROOM</p>
-        <h2>Achievements & <span>Activities</span></h2>
-    </div>
-
-    <div class="timeline">
-
-        <div class="timeline-item">
-
-            <div class="timeline-dot">✦</div>
-
-            <div class="timeline-content">
-                <span>Achievement</span>
-                <h3>Smart India Hackathon</h3>
-                <p>
-                    Participated in Smart India Hackathon and got selected
-                    twice.
-                </p>
-            </div>
-
-        </div>
-
-
-        <div class="timeline-item">
-
-            <div class="timeline-dot">✦</div>
-
-            <div class="timeline-content">
-                <span>Activity</span>
-                <h3>NSS Activities</h3>
-                <p>
-                    Participated in college NSS activities and
-                    contributed to social initiatives.
-                </p>
-            </div>
-
-        </div>
-
-
-        <div class="timeline-item">
-
-            <div class="timeline-dot">✦</div>
-
-            <div class="timeline-content">
-                <span>College</span>
-                <h3>KIYE Events & Activities</h3>
-                <p>
-                    Participated in college events, cultural activities
-                    and student activities.
-                </p>
-            </div>
-
-        </div>
 
     </div>
 
 </section>
 
 
-<!-- EDUCATION -->
-<section id="education" class="section">
+<!-- ================= EDUCATION ================= -->
 
-    <div class="section-title">
-        <p>MY ACADEMIC JOURNEY</p>
-        <h2>Education</h2>
+<section id="education" class="education">
+
+    <div class="section-heading">
+
+        <p class="small-title">MY ACADEMIC JOURNEY</p>
+
+        <h2 class="section-title">
+            <span>Education</span>
+        </h2>
+
     </div>
 
-    <div class="education-grid">
 
-        <div class="education-card main-education">
+    <div class="education-container">
 
-            <span class="education-year">2023 – 2027</span>
 
-            <h3>B.Tech – Computer Science & Engineering</h3>
+        <div class="education-card">
 
-            <p>Vignan's Women College</p>
+            <div class="education-year">
+                2023 – 2027
+            </div>
 
-            <div class="education-mark">
-                B.Tech CSE
+            <div>
+
+                <h3>
+                    B.Tech – Computer Science & Engineering
+                </h3>
+
+                <p>
+                    Vignan's Women College
+                </p>
+
             </div>
 
         </div>
@@ -359,57 +385,178 @@
 
         <div class="education-card">
 
-            <span class="education-year">Intermediate</span>
+            <div class="education-year">
+                Intermediate
+            </div>
 
-            <h3>Narayana College</h3>
+            <div>
 
-            <p>87.2%</p>
+                <h3>
+                    Narayana College
+                </h3>
+
+                <p>
+                    Percentage: 87.2%
+                </p>
+
+            </div>
 
         </div>
 
 
         <div class="education-card">
 
-            <span class="education-year">SSC</span>
+            <div class="education-year">
+                SSC
+            </div>
 
-            <h3>Bhashyam School</h3>
+            <div>
 
-            <p>10 GPA</p>
+                <h3>
+                    Bhashyam School
+                </h3>
+
+                <p>
+                    GPA: 10
+                </p>
+
+            </div>
 
         </div>
+
 
     </div>
 
 </section>
 
 
-<!-- CONTACT -->
-<section id="contact" class="contact-section">
+<!-- ================= ACTIVITIES ================= -->
+
+<section id="activities" class="activities">
+
+    <div class="section-heading">
+
+        <p class="small-title">BEYOND ACADEMICS</p>
+
+        <h2 class="section-title">
+            Achievements & <span>Activities</span>
+        </h2>
+
+    </div>
+
+
+    <div class="activities-list">
+
+
+        <div class="activity">
+
+            <div class="activity-icon">
+                🏆
+            </div>
+
+            <h3>
+                Smart India Hackathon
+            </h3>
+
+            <p>
+                Participated in Smart India Hackathon and
+                got selected twice.
+            </p>
+
+        </div>
+
+
+        <div class="activity">
+
+            <div class="activity-icon">
+                🎯
+            </div>
+
+            <h3>
+                KIYE Events & Activities
+            </h3>
+
+            <p>
+                Participated in college events and activities,
+                gaining teamwork and communication experience.
+            </p>
+
+        </div>
+
+
+        <div class="activity">
+
+            <div class="activity-icon">
+                🤝
+            </div>
+
+            <h3>
+                NSS Activities
+            </h3>
+
+            <p>
+                Participated in college NSS activities and
+                contributed to social and community initiatives.
+            </p>
+
+        </div>
+
+
+        <div class="activity">
+
+            <div class="activity-icon">
+                ✨
+            </div>
+
+            <h3>
+                Cultural & Student Activities
+            </h3>
+
+            <p>
+                Actively participated in college-level cultural
+                and student activities.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section id="contact" class="contact">
 
     <div class="contact-box">
 
-        <p class="small-heading">LET'S CONNECT</p>
-
-        <h2>Let's build something<br><i>meaningful.</i></h2>
-
-        <p>
-            I'm always interested in learning, collaborating and
-            exploring new opportunities.
+        <p class="small-title">
+            LET'S CONNECT
         </p>
 
-        <a class="contact-email"
-           href="mailto:rinkushekhawat11306@gmail.com">
-            rinkushekhawat11306@gmail.com →
-        </a>
+        <h2 class="section-title">
+            Get in <span>Touch</span>
+        </h2>
 
-        <div class="contact-social">
+        <p class="contact-text">
+            Interested in connecting or discussing opportunities?
+            Feel free to reach out.
+        </p>
 
-            <a href="https://github.com/shekhawat514" target="_blank">
-                GitHub
-            </a>
+
+        <div class="contact-links">
 
             <a href="mailto:rinkushekhawat11306@gmail.com">
-                Email
+                ✉ Email
+            </a>
+
+            <a href="https://github.com/shekhawat514" target="_blank">
+                ◉ GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank">
+                in LinkedIn
             </a>
 
         </div>
@@ -419,9 +566,14 @@
 </section>
 
 
-<!-- FOOTER -->
+<!-- ================= FOOTER ================= -->
+
 <footer>
-    <p>© 2026 Rinku Shekhawat • Made with ♡</p>
+
+    <p>
+        © 2026 Rinku Shekhawat. Made with ♡
+    </p>
+
 </footer>
 
 
